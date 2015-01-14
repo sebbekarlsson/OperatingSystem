@@ -1,10 +1,9 @@
 package os.main;
 
-import java.awt.Cursor;
+
 import java.awt.Dimension;
 import java.util.ArrayList;
 
-import javax.swing.JFrame;
 
 import org.lwjgl.LWJGLException;
 import org.lwjgl.input.Keyboard;
