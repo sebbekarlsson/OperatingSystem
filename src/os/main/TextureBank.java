@@ -8,6 +8,9 @@ import org.newdawn.slick.util.ResourceLoader;
 
 public class TextureBank {
 	
+	public static Texture BUTTON = loadTexture("images/btn1.png");
+	public static Texture BUTTON_HOVER = loadTexture("images/btn2.png");
+	
 	public static Texture START_BUTTON_HOVER = loadTexture("images/startbtn2.png");
 	public static Texture START_BUTTON = loadTexture("images/startbtn.png");
 	

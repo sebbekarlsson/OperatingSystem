@@ -2,15 +2,12 @@ package os.main.elements;
 
 
 
-import os.main.Element;
-import os.main.ElementIcon;
+
 
 import os.main.TextureBank;
 
-public class StartButton extends Element {
+public class StartButton extends OSButton {
 
-	ElementIcon normal = new ElementIcon();
-	ElementIcon hover = new ElementIcon();
 	
 	public StartButton(float x, float y) {
 		super(x, y);
@@ -21,13 +18,7 @@ public class StartButton extends Element {
 
 	@Override
 	public void tick() {
-		if(mouseOver()){
-			icon = normal;
-			Cursor.setCursor(1);
-		}else{
-			icon = hover;
-			Cursor.setCursor(0);
-		}
+		updateButton();
 		
 	}
 

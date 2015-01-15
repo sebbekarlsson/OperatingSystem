@@ -8,7 +8,7 @@ import org.lwjgl.opengl.GL11;
 
 public abstract class Element {
 	public float x,y = 0;
-	public float depth = 1;
+	public float depth = -23;
 	public ElementIcon icon = new ElementIcon();
 	public Dimension collisionSize = new Dimension(16,16);
 	private boolean mouseOver = false;

@@ -25,7 +25,7 @@ public class Cursor extends Element {
 		cursorPointers.add(cursor_pointer);
 		cursorPointers.add(cursor_click);
 		
-		depth = 1;
+		depth = 0;
 	}
 
 	@Override
